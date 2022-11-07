@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview of the Analysis:
-This analysis consisted of creating supervised machine learning models that could accurately predict the credit risk of the dataset provided. 
+This analysis consisted of creating supervised machine learning models that could accurately predict the credit risk of the dataset provided.
 
 The machine learning models that we used were: 
 - Oversampling (RandomOverSampler)
@@ -55,22 +55,24 @@ The machine learning models that we used were:
 
 5. Balanced Random Forest Classifier
 
-    Balanced Accuracy Score - 64.8%
+    Balanced Accuracy Score - 76.9%
 
-    Precision Score - 56.4%
+    Precision Score - 2.75%
 
-    Recall Score - 30%
+    Recall Score - 64%
 
-![Balanc](/)
+![Balanc](/images/BalancedRandomForestClassifier.png)
 
 6. Easy Ensemble Classifier
 
-    Balanced Accuracy Score - 64.8%
+    Balanced Accuracy Score - 92.98%
 
-    Precision Score - 56.4%
+    Precision Score - 6.27%%
 
-    Recall Score - 30%
+    Recall Score - 92%
 
-![easy ensemble]()
+![easy ensemble](/images/Easy%20Ensemble%20Updated.png)
 
-## Summary: 
+## Summary:
+
+After using the six machine learning models above, it was found that the best model to predict the high risk loan applications out of all of the loan applications was the Easy Ensemble Classifier Model. The Easy Ensemble Classifier Model had an accuracy score of 92.98% where the other six models had anywhere from a 50-76% accuracy score so this model far and away was more accurate than the other models. 
